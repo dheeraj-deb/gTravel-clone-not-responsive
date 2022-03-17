@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    padding: 0 1rem 0 1rem;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0 0 0rem;
+    z-index: 1;
+}
+
+header .logo-section{
+    display: flex;
+    align-items: center;
+}
+
+header .logo-section .logo img{
+    height: 25px;
+}
+
+header .profile-section{
+    display: flex;
+    align-items: center;
+}
+
+header .logo-section .menu{
+    width: 27px;
+    height: 25px;
+    border-radius: 2rem;
+    margin-top: -7px;
+    margin-right: 1rem;
+}
+
+header .logo-section .menu:hover{
+    background-color: #ccc;
+}
+
+header .logo-section .menu .icon{
+    font-size: 26px;
+    color: #666666;
+    margin-right: 1rem;
+}
+
+header .profile-section .apps .icon{
+    font-size: 23px;
+    color: #666666;
+    margin-right: 1rem;
+}
+
+header .profile-section .avathar img{
+    width: 2.6rem;
+    height: 2.6rem;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+header .profile-section .apps{
+    width: 27px;
+    height: 25px;
+    border-radius: 2rem;
+    margin-top: -7px;
+    margin-right: 1rem;
+}
+
+header .profile-section .apps:hover{
+    background-color: #ccc;
+}
+
+.main-section{
+    padding-top: 1rem;
+}
+
+.left-section{
+    position: fixed;
+    height: 100vh;
+    background-color: #ffffff;
+
+}
+
+.main-section .left-section .links{
+    display: flex;
+    flex-flow: column;
+}
+
+.main-section .left-section .links .icon{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    height: 50px;
+}
+
+.main-section .left-section .links .icon p{
+    font-size: 13px;
+    color: #666666;
+}
+
+
+.main-section .left-section .links .icon .icons{
+    font-size: 22px;
+    color: #666666;
+
+}
+
+.center-section{
+    padding: 0 5rem;
+    height: 800px;
+}
+
+.content-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-section .div{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-section .div h4{
+    font-size: 54px;
+    font-weight: 400;
+    position: absolute;
+    top: 18rem;
+}
+
+.content-section .div .search{
+    position: relative;
+}
+
+.content-section .div .search input{
+    outline: none;
+    width: 386px;
+    height: 55px;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    padding: 0 0 0 3rem;
+    border: none;
+    box-shadow: -1px 3px 10px -3px #666666;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.content-section .div .search .icons{
+    position: absolute;
+    top: 18px;
+    left: 19px;
+    color: #666666;
+    font-size: 21px;
+}
+.content-section .links .icon{
+    /* width: 90px; */
+    height: 90px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5px;
+    padding: 1rem;
+}
+
+.content-section .links .icon:hover{
+    background-color: #ccc;
+    border-radius: 0.2rem;
+}
+
+.content-section .links .icon p{
+    font-size: 13px;
+    color: #666666;
+}
+
+.content-section .links{
+    display: flex;
+    margin-top: 32px;
+}
+
+.content-section .links .icon .icons{
+    font-size: 28px;
+    color: #666666;
+}
+
+.footer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.footer .card1{
+    display: flex;
+    align-items: center;
+    padding: 1.46rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    width: 970px;
+    border: 1px solid #dadce0;
+}
+
+.footer .card1 .icon1{
+    width: 27px;
+    height: 24px;
+    font-size: 25px;
+    background: #fef7e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+}
+
+.footer .card1 .card-texts h3{
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.footer .card1 .card-texts p{
+
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.footer .card2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 970px;
+    background: #d2e2fd;
+    border-radius: 14px;
+    margin-top: 1rem;
+}
+
+.footer .card2 .icon2{
+    font-size: 35px;
+    color: blue;
+    margin: 0 1rem;
+}
+
+.footer .card2 .card-texts h3{
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.footer .card2 .card-texts p{
+
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.footer .card2 .plus-icon-div{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 7px 22px;
+    border-radius: 2rem;
+    box-shadow: -1px 2px 10px -3px rgba(0,0,0,0.7);
+}
+
+.footer .card2 .plus-icon-div img{
+    margin-right: 0.4rem;
+}
+
+.footer .card2 .plus-icon-div h4 {
+    font-weight: 400;
+
+}
+
+.popular-destinations .head{
+    padding: 0 0 1rem 0;
+}
+
+.popular-destinations .head h4{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.popular-destinations .head div{
+    display: flex;
+    align-items: center;
+}
+
+.popular-destinations .head div p{
+    margin-right: 5px;
+    color: #666666;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.main-div{
+    display: flex;
+}
+
+.discription .dis2{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+.popular-destinations{
+    padding: 4rem 0 0 6rem;
+}
+
+.main-div .cards{
+    margin-bottom: 0.5rem;
+}
+
+.main-div .cards .card{
+    width: 506px;
+    height: 135px;
+    display: flex;
+}
+
+.main-div .cards .card .image{
+    width: 187px;
+    height: 133px;
+}
+
+.main-div .cards .card .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.main-div .cards .card .discription{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 316px;
+    height: 133px;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.main-div .cards .card .dis1{
+    padding: 1rem 0 0 0.5rem;
+}
+
+.main-div .cards .card .dis1 h3{
+    font-size: 17px;
+    font-weight: 500;
+    color: #666666;
+}
+
+.main-div .cards .card .dis1 p{
+    font-size: 14px;
+    color: #666666;
+}
+
+.main-div .cards .card .dis2{
+    margin-right: 1rem;
+    font-size: 14px;
+
+}
+
+.main-div .cards .card .dis2 p{
+    margin-left: 7px;
+}
+
+.main-div .cards .card .stay{
+    display: flex;
+}
+
+.main-div .cards .card .flights{
+    display: flex;
+}
+
+.main-div .map img{
+    height: 419px;
+    width: 506px;
+    border-radius: 1rem;
+    margin-left: 11px;
+
+}
+
+.popular-destinations .card2{
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.popular-destinations .card2 .icon2 img{
+    width: 60px;
+
+}
+
+.popular-destinations .card2 .card-texts h3{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.popular-destinations .card2 .card-texts p{
+    font-size: 14px;
+    color: #666666;
+}
+
+.popular-destinations .card2 .icon2{
+    width: 60px;
+}
+
+.popular-destinations .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.popular-destinations .link a{
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #3fa2f4;
+}
